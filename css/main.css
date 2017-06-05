@@ -1,0 +1,23 @@
+/*
+  Table of Contents
+    1. General
+*/
+
+/***********************************
+GENERAL
+***********************************/
+
+/**,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}*/
