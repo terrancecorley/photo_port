@@ -7,7 +7,7 @@
 GENERAL
 ***********************************/
 
-/**,
+*,
 *::before,
 *::after {
   box-sizing: inherit;
@@ -20,4 +20,20 @@ html {
 body {
   line-height: 1.5;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-}*/
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 4%;
+}
+
+.full-width-container {
+  margin: 0 4%;
+}
+
+img {
+  max-width: 100%;
+}
