@@ -19,7 +19,18 @@ html {
 
 body {
   line-height: 1.5;
+}
+
+body,
+button,
+input:placeholder-shown,
+textarea {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+h1,
+h3 {
+  font-weight: normal;
 }
 
 a {
@@ -36,4 +47,37 @@ a {
 
 img {
   max-width: 100%;
+}
+
+
+
+/***********************************
+COLORS
+***********************************/
+
+body,
+a,
+a:visited {
+  color: #a2a2a2;
+}
+
+span {
+  color: #fff;
+}
+
+.underlining {
+  border-bottom: 1px dotted;
+}
+
+.underlining:hover {
+  border-bottom: none;
+}
+
+.teal:hover,
+.underlining:hover {
+  color: #49bf9d;
+}
+
+.dark-gray {
+  color: #787878;
 }
