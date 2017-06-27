@@ -123,14 +123,9 @@ a:visited {
   color: #a2a2a2;
 }
 
-.underlining,
-.teal {
-  transition: color 0.2s ease-in-out;
-}
-
 .underlining {
   border-bottom: 1px dotted;
-  transition: border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
 }
 
 .underlining:hover {
@@ -154,11 +149,11 @@ button {
   background-color: #fff;
   border: 3px solid #efefef;
   border-radius: 0.35em;
+  transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 button:hover {
   border-color: #49bf9d;
-  transition: border 0.2s ease-in-out;
 }
 
 /* Main Header Colors */
