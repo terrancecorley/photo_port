@@ -61,7 +61,7 @@ main {
 
 button {
   display: block;
-  margin: 1.8em auto;
+  margin: 1.8em auto 1em;
   padding: 0.8em 0;
   width: 100%;
 }
