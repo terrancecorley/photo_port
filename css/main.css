@@ -3,6 +3,7 @@
     1. General
     2. Main Header
     3. Intro Section
+    4. Gallery Section
 */
 
 /***********************************
@@ -71,6 +72,11 @@ button,
   cursor: pointer;
 }
 
+.intro-section,
+.gallery-section {
+  padding: 1.5em 0;
+}
+
 
 
 /***********************************
@@ -101,10 +107,6 @@ button,
 3. INTRO SECTION
 ***********************************/
 
-.intro-section {
-  padding: 1.5em 0;
-}
-
 .intro-section h1 {
   font-size: 1.35em;
 }
@@ -116,12 +118,38 @@ button,
 
 
 
+/***********************************
+4. GALLERY SECTION
+***********************************/
+
+.gallery-section {
+  font-size: 1.2rem;
+}
+
+.gallery-section figure[role="group"] > figcaption {
+  margin-bottom: -0.9em;
+}
+
+.gallery-section figure {
+  margin: 2em 0;
+}
+
+.gallery-section figure img {
+  min-width: 100%;
+}
+
+.gallery-section figure p {
+  margin: 0.2em 0 1.2em;
+  font-size: 0.7em;
+}
+
+
 
 /***********************************
 COLORS
 ***********************************/
 
-/* General Colors */
+/* General Colors/Borders */
 body,
 a,
 a:visited {
@@ -153,7 +181,6 @@ a:visited {
 button {
   background-color: #fff;
   border: 3px solid #efefef;
-  border-radius: 0.35em;
   transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -161,7 +188,12 @@ button:hover {
   border-color: #49bf9d;
 }
 
-/* Main Header Colors */
+button,
+.gallery-section img {
+  border-radius: 0.35em;
+}
+
+/* Main Header Colors/Borders */
 span {
   color: #fff;
 }
