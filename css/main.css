@@ -127,7 +127,7 @@ button,
   font-size: 1.2rem;
 }
 
-.gallery-section figure[role="group"] > figcaption {
+.gallery-section .group-figure > figcaption {
   margin-bottom: -0.9em;
 }
 
