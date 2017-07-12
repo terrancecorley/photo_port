@@ -76,8 +76,15 @@ button,
 
 .intro-section,
 .gallery-section,
-.contact-section {
+.contact-section,
+.contact-details {
   padding: 1.5em 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
@@ -171,6 +178,10 @@ textarea {
   min-height: 8.5em;
 }
 
+.contact-details a {
+  display: inline-block;
+
+}
 
 
 /***********************************
