@@ -4,6 +4,7 @@
     2. Main Header
     3. Intro Section
     4. Gallery Section
+    5. Contact Section
 */
 
 /***********************************
@@ -74,7 +75,8 @@ button,
 }
 
 .intro-section,
-.gallery-section {
+.gallery-section,
+.contact-section {
   padding: 1.5em 0;
 }
 
@@ -146,6 +148,29 @@ button,
 
 
 
+/***********************************
+5. CONTACT SECTION
+***********************************/
+
+.contact-header h3 {
+  margin-top: 0;
+}
+
+.contact-header p {
+  line-height: 1.75;
+}
+
+input, textarea {
+  display: block;
+  margin-top: 0.65em;
+  padding: 0.75em;
+  width: 100%;
+}
+
+textarea {
+  min-height: 8.5em;
+}
+
 
 
 /***********************************
@@ -155,7 +180,9 @@ COLORS
 /* General Colors/Borders */
 body,
 a,
-a:visited {
+a:visited,
+input,
+textarea {
   color: #a2a2a2;
 }
 
@@ -187,16 +214,49 @@ button {
   transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-button:hover {
+button:hover,
+input:focus,
+textarea:focus {
   border-color: #49bf9d;
 }
 
 button,
-.gallery-section img {
+.gallery-section img,
+input,
+textarea {
   border-radius: 0.35em;
 }
 
 /* Main Header Colors/Borders */
 span {
   color: #fff;
+}
+
+/* Contact Section Colors/Borders */
+input, textarea {
+  background-color: #f7f7f7;
+  border: 2px solid transparent;
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #a2a2a2;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color: #a2a2a2;
+ opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color: #a2a2a2;
+ opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #a2a2a2;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #a2a2a2;
 }
