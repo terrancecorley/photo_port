@@ -180,7 +180,24 @@ textarea {
 
 .contact-details a {
   display: inline-block;
+  min-height: 16px;
+  margin-bottom: 1em;
+  padding-left: 1.8em;
+  background-repeat: no-repeat;
+  background-position: 0 0.27em;
+  background-size: 16px 16px;
+}
 
+.location {
+  background-image: url(../img/house.svg);
+}
+
+.phone {
+  background-image: url(../img/phone.svg);
+}
+
+.email {
+  background-image: url(../img/email.svg);
 }
 
 
