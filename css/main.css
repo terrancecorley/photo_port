@@ -5,6 +5,7 @@
     3. Intro Section
     4. Gallery Section
     5. Contact Section
+    6. Main Footer
 */
 
 /***********************************
@@ -198,6 +199,21 @@ textarea {
 
 .email {
   background-image: url(../img/email.svg);
+}
+
+
+
+/***********************************
+6. MAIN FOOTER
+***********************************/
+
+.main-footer {
+  text-align: center;
+}
+
+.main-footer .social-icons li,
+.main-footer .social-icons a {
+  display: inline-block;
 }
 
 
