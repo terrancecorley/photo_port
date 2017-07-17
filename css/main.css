@@ -78,7 +78,8 @@ button,
 .intro-section,
 .gallery-section,
 .contact-section,
-.contact-details {
+.contact-details,
+.main-footer {
   padding: 1.5em 0;
 }
 
@@ -181,12 +182,12 @@ textarea {
 
 .contact-details a {
   display: inline-block;
-  min-height: 16px;
+  min-height: 14px;
   margin-bottom: 1em;
   padding-left: 1.8em;
   background-repeat: no-repeat;
-  background-position: 0 0.27em;
-  background-size: 16px 16px;
+  background-position: 0 0.35em;
+  background-size: 14px 14px;
 }
 
 .location {
@@ -209,6 +210,11 @@ textarea {
 
 .main-footer {
   text-align: center;
+  min-height: 14em;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .main-footer .social-icons li,
@@ -216,7 +222,42 @@ textarea {
   display: inline-block;
 }
 
+.main-footer .social-icons a {
+  text-indent: -100000px;
+  min-height: 24px;
+  margin-bottom: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
 
+.social-icons .twitter {
+  background-image: url(../img/twitter.svg);
+}
+
+.social-icons .github {
+  background-image: url(../img/github.svg);
+}
+
+.social-icons .linkedin {
+  background-image: url(../img/linkedin.svg);
+}
+
+.social-icons .twitter:hover {
+  background-image: url(../img/twitter-hover.svg);
+}
+
+.social-icons .github:hover {
+  background-image: url(../img/github-hover.svg);
+}
+
+.social-icons .linkedin:hover {
+  background-image: url(../img/linkedin-hover.svg);
+}
+
+.main-footer p {
+  margin-bottom: 0;
+}
 
 /***********************************
 COLORS
