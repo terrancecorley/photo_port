@@ -384,7 +384,20 @@ input, textarea {
     margin-top: 1.6em;
   }
 
-  /* INTRO SECTION */
+  /* GALLERY SECTION */
+  .group-figure figure {
+    float: left;
+    max-width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 
+  .group-figure figure:nth-child(4) {
+    clear: left;
+  }
+
+  .gallery-section button {
+    clear: both;
+  }
 
 }
