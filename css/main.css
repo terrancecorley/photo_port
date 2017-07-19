@@ -6,6 +6,8 @@
     4. Gallery Section
     5. Contact Section
     6. Main Footer
+    7. Colors & Borders
+    8. Media Queries
 */
 
 /***********************************
@@ -348,4 +350,32 @@ input, textarea {
 
 ::-ms-input-placeholder { /* Microsoft Edge */
  color: #a2a2a2;
+}
+
+
+
+/***********************************
+8. MEDIA QUERIES
+***********************************/
+
+@media (min-width: 30em) {
+
+  body {
+    background-color: lightgray; /* Delete This After */
+  }
+
+  /* MAIN HEADER */
+  .main-header {
+    height: 15.15em;
+  }
+
+  .main-header p {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  [src*="avatar"] {
+    margin-top: 1.6em;
+  }
+
 }
