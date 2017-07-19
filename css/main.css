@@ -364,6 +364,12 @@ input, textarea {
     background-color: lightgray; /* Delete This After */
   }
 
+  /* GENERAL */
+  button {
+    width: 10em;
+    margin-left: 0;
+  }
+
   /* MAIN HEADER */
   .main-header {
     height: 15.15em;
@@ -377,5 +383,8 @@ input, textarea {
   [src*="avatar"] {
     margin-top: 1.6em;
   }
+
+  /* INTRO SECTION */
+
 
 }
