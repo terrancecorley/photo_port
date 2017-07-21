@@ -410,4 +410,14 @@ input, textarea {
     float: right;
   }
 
+  /* MAIN FOOTER SECTION */
+  .main-footer {
+    min-height: 5.15em;
+  }
+
+  .main-footer p {
+    margin-top: 2.15em;
+    margin-bottom: 3em;
+  }
+
 }
