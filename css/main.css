@@ -462,4 +462,22 @@ input, textarea {
     line-height: 1.75;
   }
 
+  /* GALLERY */
+
+  .group-figure > figcaption {
+    font-size: 1.25em;
+  }
+
+  .group-figure figure {
+    margin-bottom: 0;
+  }
+
+  .group-figure figure p {
+    margin-bottom: 0;
+  }
+
+  .gallery-section #mb {
+    margin-bottom: 2.4em;
+  }
+
 }
