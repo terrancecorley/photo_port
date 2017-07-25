@@ -108,7 +108,7 @@ ul {
   font-size: 1.4rem;
 }
 
-[src*="avatar"] {
+.main-header [src*="avatar"] {
   margin-top: 3.25em;
   border-radius: 100%;
   height: 100px;
@@ -376,7 +376,7 @@ input, textarea {
     margin-right: 3em;
   }
 
-  [src*="avatar"] {
+  .main-header [src*="avatar"] {
     margin-top: 1.6em;
   }
 
@@ -414,6 +414,29 @@ input, textarea {
   .main-footer p {
     margin-top: 2.15em;
     margin-bottom: 3em;
+  }
+
+}
+
+@media (min-width: 46em) {
+
+  body {
+    background-color: lightgray; /* DELETE ME AFTER */
+  }
+
+  /* MAIN HEADER */
+  .main-header {
+    font-size: 1.75rem;
+    line-height: 1.8;
+    height: 17.675em;
+  }
+
+  .main-header [src*="avatar"] {
+    margin-top: 3.425em;
+  }
+
+  .main-header p {
+    margin-top: 0.4em;
   }
 
 }
