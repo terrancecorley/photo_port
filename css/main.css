@@ -424,6 +424,15 @@ input, textarea {
     background-color: lightgray; /* DELETE ME AFTER */
   }
 
+  /* GENERAL */
+  .container {
+    margin: 0 8%;
+  }
+
+  button {
+    margin-bottom: 2.4em;
+  }
+
   /* MAIN HEADER */
   .main-header {
     font-size: 1.75rem;
@@ -437,6 +446,20 @@ input, textarea {
 
   .main-header p {
     margin-top: 0.4em;
+  }
+
+  /* INTRO SECTION */
+  .intro-section {
+    padding-top: 4.65em;
+  }
+
+  .intro-section h1 {
+    font-size: 2rem;
+  }
+
+  .intro-section p {
+    margin: 2em 0;
+    line-height: 1.75;
   }
 
 }
