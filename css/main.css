@@ -527,3 +527,13 @@ input, textarea {
 
 
 }
+
+@media (min-width: 61.25em) {
+
+  /* GENERAL */
+  body {
+    background-color: lightgray; /* DELETE THIS AFTER */
+  }
+
+
+}
