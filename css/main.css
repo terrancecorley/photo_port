@@ -262,6 +262,7 @@ textarea {
 .main-footer p {
   margin-top: 9.5em;
   margin-bottom: 0;
+  letter-spacing: 1px;
 }
 
 /***********************************
@@ -420,10 +421,6 @@ input, textarea {
 
 @media (min-width: 46em) {
 
-  body {
-    background-color: lightgray; /* DELETE ME AFTER */
-  }
-
   /* GENERAL */
   .container {
     margin: 0 8%;
@@ -518,7 +515,15 @@ input, textarea {
   }
 
   /* MAIN FOOTER */
-  
+  .main-footer {
+    padding: 4.3em 0;
+    font-size: 0.85rem;
+  }
+
+  .main-footer .social-icons a {
+    min-height: 28px;
+    background-size: 28px;
+  }
 
 
 }
