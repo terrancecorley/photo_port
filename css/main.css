@@ -530,11 +530,7 @@ input, textarea {
 
 @media (min-width: 61.25em) {
 
-  /* GENERAL */
-  body {
-    background-color: lightgray; /* DELETE THIS AFTER */
-  }
-
+  /* GENERAL & POSITIONING */
   .float-left {
     float: left;
     width: 35%;
@@ -554,6 +550,34 @@ input, textarea {
   .main-footer {
     clear: both;
   }
+
+  /* MAIN HEADER */
+  .main-header {
+    text-align: right;
+    font-size: 1.4rem;
+  }
+
+  .main-header p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main-header [src*="avatar"] {
+    margin-top: 5.8em;
+  }
+
+  /* MAIN FOOTER */
+  .main-footer {
+    position: fixed;
+    left: 7%;
+    bottom: 0;
+    background: transparent;
+  }
+
+  .main-footer li:nth-child(3) {
+    margin-right: -13.5em;
+  }
+
 
 
 }
