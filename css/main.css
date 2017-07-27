@@ -576,9 +576,14 @@ input, textarea {
   }
 
   .main-footer li:nth-child(3) {
-    margin-right: -13.5em;
+    margin-right: -15.25em;
   }
 
+  .main-footer .social-icons a {
+    min-height: 22px;
+    background-size: 22px;
+    margin: 1em 0.1em 0;
+  }
 
 
 }
