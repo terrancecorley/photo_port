@@ -569,7 +569,8 @@ input, textarea {
   /* MAIN FOOTER */
   .main-footer {
     position: fixed;
-    left: 7%;
+    left: 0;
+    width: 36%;
     bottom: 0;
     background: transparent;
   }
