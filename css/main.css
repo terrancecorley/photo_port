@@ -382,6 +382,10 @@ input, textarea {
   }
 
   /* GALLERY SECTION */
+  .group-figure figcaption {
+    margin-left: 2.5%;
+  }
+
   .group-figure figure {
     float: left;
     max-width: 45%;
@@ -395,6 +399,7 @@ input, textarea {
 
   .gallery-section button {
     clear: both;
+    margin-left: 2.5%;
   }
 
   /* CONTACT SECTION */
