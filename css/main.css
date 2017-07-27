@@ -585,5 +585,10 @@ input, textarea {
     margin: 1em 0.1em 0;
   }
 
+  /* COLORS */
+  .main-header p,
+  .main-header p a {
+    color: rgba(255, 255, 255, 0.5);
+  }
 
 }
