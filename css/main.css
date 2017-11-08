@@ -265,6 +265,19 @@ textarea {
   letter-spacing: 1px;
 }
 
+
+
+/***********************************
+LIGHTBOX STYLES
+***********************************/
+
+.lb-data .lb-caption {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+
+
 /***********************************
 COLORS
 ***********************************/
@@ -528,8 +541,12 @@ input, textarea {
   .main-footer .social-icons a {
     min-height: 28px;
     background-size: 28px;
-  }
+	}
 
+	/* LIGHTBOX STYLES */
+	.lb-data .lb-caption {
+		font-size: 1.3em;
+	}
 
 }
 
